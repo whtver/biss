@@ -15,6 +15,7 @@ How to set up wordpress:
 2. Dump database in dumb-db folder to your database
 3. DONE!
 4. Remember to dumb database everytime changes happen in dumb-db folder
+5. Username/password: admin/admin
 
 
 Happy collaborating!:D

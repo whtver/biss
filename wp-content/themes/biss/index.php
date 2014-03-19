@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("header-preview.php"); ?>
 <section class="slidehome">
 	<div class="clearfix nav_cont_slide">
 		<a href="#" class="col-xs-6 cus_prev">&laquo;</a>
@@ -143,4 +143,4 @@
 		</div>
 	</div>
 </section>
-<?php include("footer.php"); ?>	
+<?php include("footer-preview.php"); ?>	

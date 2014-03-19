@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("header-preview.php"); ?>
 
 	<section class="global_banner">
 		<img src="assets/img/banner/classes.jpg" />
@@ -114,4 +114,4 @@
 		</div>
 	</section>
 
-<?php include("footer.php"); ?>	
+<?php include("footer-preview.php"); ?>	

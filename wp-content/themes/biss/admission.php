@@ -379,7 +379,7 @@
 						<h4 class="orange">
 							Rp 500.000
 							<span>45 menit</span>
-						</h4>
+						</h4> 
 					</div>
 					<div class="clearfix">
 						<div class="col-xs-8">

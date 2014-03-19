@@ -2,24 +2,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
-				<h3>Bina Seni Suara</h3>
-				<p>Jl. Gunawarman No. 42 Kebayoran Baru 12110 Jakarta Selatan</p>
-				<p>Telp. +627268006,7222663 Fax. +627268007</p>
-				<p>email : 
-				<a href="mailto:biss@binasenisuara.com" target="_top">biss@binasenisuara.com</a> | <a href="mailto:binasenisuara@ymail.com" target="_top">binasenisuara@ymail.com</a></p>
+				<h3><?php the_field('footer_title', '75'); ?></h3>
+				<?php the_field('footer_address', '75'); ?>
 			</div>
 			<div class="col-xs-6 col-md-4">
 				<div class="row">
 					<div class="col-md-6">
-						<a href="#" target="_blank" class="foot_tw">
+						<a href="http://twitter.com/<?php the_field('twitter', '75'); ?>" target="_blank" class="foot_tw">
 							<span class="cyan">Twitter</span>
-							<span>@BinaSeniSuara</span>
+							<span>@<?php the_field('twitter', '75'); ?></span>
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a href="#" target="_blank" class="foot_fb">
+						<a href="http://facebook.com/<?php the_field('facebook', '75'); ?>" target="_blank" class="foot_fb">
 							<span class="cyan">Facebook</span>
-							<span>@BinaSeniSuara</span>
+							<span>@<?php the_field('facebook', '75'); ?></span>
 						</a>
 					</div>
 				</div>

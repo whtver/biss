@@ -554,7 +554,25 @@ ul.nav li a {
 			background: #d37418;
 			color: #fff;
 		}
-				
+		
+		
+	/* Our Story ============ */
+	
+		#tagline {
+			background: #1d4441;
+			color: #fff;
+			padding: 5px 0 40px;
+			border-top: 5px solid #f56600;
+		}
+		
+		#btn_ourstory.btn-success {
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-size: 24px;
+			padding: 10px;
+			margin-top: -30px;
+			font-family: "oswald", Arial, sans-serif;
+		}
 
 	/* Contact ================ */
 
@@ -767,5 +785,5 @@ ul.nav li a {
 		height: auto;
 	}	
 }
- 
+
 

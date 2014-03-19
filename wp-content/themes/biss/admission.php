@@ -2,7 +2,7 @@
 
 
 	<section class="global_banner">
-		<img src="assets/img/banner/classes.jpg" />
+		<img src="assets/img/banner/admission.jpg" />
 		<div class="banner_desc">
 			<div class="container">
 				<div class="row">

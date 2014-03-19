@@ -37,9 +37,6 @@
             <a class="navbar-brand" href="<?php echo site_url(); ?>">
   			<img src="<?php echo retrieve_logo()['logo_non_mobile']; ?>" class="img-responsive" />
   		  </a>
-            <a class="navbar-brand mobile" href="<?php echo site_url(); ?>" style="display: none;">
-  			<img src="<?php echo retrieve_logo()['control']? retrieve_logo()['logo_mobile']:retrieve_logo()['logo_non_mobile']; ?>" />
-  		  </a>		  
           </div>
           <?php wp_nav_menu( array('menu' => 'Top primary menu', 'container_class' => 'navbar-collapse collapse', 'items_wrap' => '<ul id="%1$s" class="nav navbar-nav navbar-right">%3$s</ul>' )); ?>
         </div>

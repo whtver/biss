@@ -41,6 +41,22 @@ function create_post_type() {
 		'has_archive' => true,
 		)
 	);
+
+	register_post_type( 'biss_footer', array(
+	    'labels' => array(
+	            'name' => 'Footer',
+	            'singular_name' => 'Footer',
+	    ),
+	    'public' => true,
+	    'show_ui' => true,
+	    'show_in_menu' => 'themes.php',
+	    'capabilities' => array(
+    		'create_posts' => false, // Removes support for the "Add New" function
+    		'delete_published_posts' => false
+  			),
+	    'map_meta_cap' => true, // Set to false, if users are not allowed to edit/delete existing posts
+    	) 
+	);
 }
 add_action( 'init', 'create_post_type' );
 

@@ -1,7 +1,8 @@
 <?php include("header-preview.php"); ?>
 
+
 	<section class="global_banner">
-		<img src="assets/img/banner/classes.jpg" />
+		<img src="assets/img/banner/admission.jpg" />
 		<div class="banner_desc">
 			<div class="container">
 				<div class="row">
@@ -20,7 +21,7 @@
 				<h2>Admission</h2>
 			</div>
 		</div>
-	</section>
+	</section>	
 	
 	<section id="" class="marbot20 container">
 		<div class="row">
@@ -37,10 +38,10 @@
 		</div>		
 	</section>
 	
-	<section id="" class="marbot20 container">
+	<section id="step_admission" class="marbot20 container">
 		<div class="row">
 			<div class="col-xs-3">
-				asas
+				Tata Cara Pendaftaran
 			</div>
 			<div class="col-xs-3">
 				asas
@@ -54,49 +55,384 @@
 		</div>
 	</section>
 	
-<div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
+	<section id="global_title" class="container marbotnon">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Biaya - biaya</h2>
+			</div>
+		</div>
+	</section>	
+	
+<div class="container">
+	<div class="row">
+		<div class="panel-group" id="accordion">
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#accor_1">
+					Kelas Vokal
+				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
+				</a>
+			  </h4>
+			</div>
+			<div id="accor_1" class="panel-collapse collapse in">
+			  <div class="panel-body">
+				
+				<!-- BEGIN Accordion Content -->
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Spesifik/Private</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 500.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>2 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 325.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>3 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 275.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Vokal Expatriate</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Paket Liburan/Keluarga</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+			  <!-- END Accordion Content -->
+			  
+			  </div>
+			</div>
+		  </div>
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#accor_2">
+				  Kelas Piano
+				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
+				</a>
+			  </h4>
+			</div>
+			<div id="accor_2" class="panel-collapse collapse">
+			  <div class="panel-body">
+
+				<!-- BEGIN Accordion Content -->
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Spesifik/Private</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 500.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>2 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 325.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>3 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 275.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Vokal Expatriate</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Paket Liburan/Keluarga</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+			  <!-- END Accordion Content -->
+			  
+			  </div>
+			</div>
+		  </div>	
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#accor_3">
+				  Les Biola
+				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
+				</a>
+			  </h4>
+			</div>
+			<div id="accor_3" class="panel-collapse collapse">
+			  <div class="panel-body">
+			  
+				<!-- BEGIN Accordion Content -->
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Spesifik/Private</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 500.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>2 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 325.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>3 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 275.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Vokal Expatriate</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Paket Liburan/Keluarga</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+			  <!-- END Accordion Content -->
+			  
+			  </div>
+			</div>
+		  </div>	
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#accor_4">
+				  Kelas Gitar Klasik
+				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
+				</a>
+			  </h4>
+			</div>
+			<div id="accor_4" class="panel-collapse collapse">
+			  <div class="panel-body">
+			  
+				<!-- BEGIN Accordion Content -->
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Spesifik/Private</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 500.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>2 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 325.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>3 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 275.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Vokal Expatriate</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Paket Liburan/Keluarga</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+			  <!-- END Accordion Content -->
+			  
+			  </div>
+			</div>
+		  </div>	
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+			  <h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#accor_5">
+				  Kelas Keyboard
+				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
+				</a>
+			  </h4>
+			</div>
+			<div id="accor_5" class="panel-collapse collapse">
+			  <div class="panel-body">
+
+				<!-- BEGIN Accordion Content -->
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Spesifik/Private</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 500.000
+							<span>45 menit</span>
+						</h4> 
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>2 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 325.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="col-xs-8">
+							<h5>3 Siswa</h5>
+						</div>
+						<div class="col-xs-4">
+							<h5 class="orange">
+								Rp 275.000
+								<span>45 menit</span>
+							</h5>
+						</div>
+					</div>					
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Kelas Vokal Expatriate</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8">
+						<h4>Paket Liburan/Keluarga</h4>
+					</div>
+					<div class="col-xs-4">
+						<h4 class="orange">
+							Rp 325.000
+							<span>45 menit</span>
+						</h4>
+					</div>
+				</div>
+			  <!-- END Accordion Content -->			  
+			  
+			  </div>
+			</div>
+		  </div>		  
+		</div>		
+	</div>
 </div>
 
 	

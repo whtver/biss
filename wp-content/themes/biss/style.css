@@ -12,7 +12,7 @@
 @import url("assets/css/fonts.css");
 @import url("assets/css/home_carousel.css");
 
-body {font-family: "opensans", Arial, sans-serif; background: #f3f3f3}
+body {font-family: "opensans", Arial, sans-serif; background: #ffffff}
 h3 {font-family: "oswald", Arial, sans-serif;}
 p {color: #1d4441; line-height: 24px;}
 a {color: #a60d46;}
@@ -298,6 +298,10 @@ ul.nav li a {
 		margin-top: 20px;
 	}
 	
+	#global_title.marbotnon {
+		margin-bottom: 0;
+	}
+	
 		#global_title h2 {
 			margin-left: auto;
 			margin-right: auto;
@@ -454,6 +458,121 @@ ul.nav li a {
 				letter-spacing: 1px;
 			}
 			
+	/* Accordion ============== */
+	
+	#accordion * {
+		text-shadow: none;
+	}
+	
+		#accordion .panel-body {
+			color: #1d4441;
+			background: transparent;
+		}
+		
+		#accordion .panel-heading {
+			border: none;
+			padding: 0;
+			color: #40a699;
+			height: inherit;
+			margin-top: 30px;
+			border-top: 2px solid #e4e4e4;
+			background: #F3F3F3 url(assets/img/bgtitle.png) repeat-x left bottom;
+			padding: 10px 0 15px 0;
+		}
+		
+		#accordion .panel-heading h4 {
+			font-weight: normal;
+		}
+		
+			#accordion .panel-heading span {
+				display: block;
+				font-size: 13px;
+				margin: 8px 0 0 0;
+			}
+		
+		#accordion .panel-title {
+			font-size: 28px;
+			text-transform: capitalize;
+		}
+		
+			#accordion .panel-title a {
+				width: 100%;
+				display: block;
+				padding: 15px;
+			}
+			
+			#accordion .panel-title a em {
+				font-style: normal;
+				color: #97a39f;
+			}
+			
+			#accordion .panel-body {
+				padding-bottom: 0;
+				border: none;
+				background: #f3f3f3;
+				line-height: 24px;
+			}
+			
+			#accordion .panel-body h4 {
+				text-transform: capitalize;
+				font-weight: normal;
+				font-size: 20px;
+			}
+			
+			#accordion .panel-body h5 {
+				text-transform: capitalize;
+				font-weight: normal;
+				font-size: 17px;
+			}			
+			
+			#accordion .panel-body .row {
+				padding: 10px 0 15px 0;
+				background: url(assets/img/bgtitle.png) repeat-x left bottom;
+			}			
+			
+			#accordion h4.orange,
+			#accordion h5.orange {
+				text-align: right;
+				color: #f56600;
+				font-weight: bold;
+				font-size: 18px;
+			}
+			
+				#accordion h4.orange span,
+				#accordion h5.orange span {
+					display: block;
+					font-weight: normal;
+					font-size: 14px;
+					color: #97a39f;
+					line-height: 18px;
+				}
+				
+	/* Admission ============== */
+	
+		#step_admission {
+			padding: 15px;
+			background: #d37418;
+			color: #fff;
+		}
+		
+		
+	/* Our Story ============ */
+	
+		#tagline {
+			background: #1d4441;
+			color: #fff;
+			padding: 5px 0 40px;
+			border-top: 5px solid #f56600;
+		}
+		
+		#btn_ourstory.btn-success {
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-size: 24px;
+			padding: 10px;
+			margin-top: -30px;
+			font-family: "oswald", Arial, sans-serif;
+		}
 
 	/* Contact ================ */
 

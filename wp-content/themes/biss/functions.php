@@ -73,7 +73,10 @@ function biss_scripts() {
 	wp_enqueue_style('biss-bootstrap-theme-min-css', get_template_directory_uri() . '/assets/css/bootstrap-theme.min.css', array(), '3.1.0');
 	wp_enqueue_style( 'biss-style', get_stylesheet_uri(), array() );
 
-	wp_enqueue_script( 'biss-jquery-script', get_template_directory_uri() . '/assets/js/jquery.js', array(), true );
+	if(!is_page_template('page-templates/contact.php')){
+		wp_enqueue_script( 'biss-jquery-script', get_template_directory_uri() . '/assets/js/jquery.js', array(), true );
+	}
+	
 	wp_enqueue_script( 'biss-bootstrap-script', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), true );
 	wp_enqueue_script( 'biss-jquery-slide-script', get_template_directory_uri() . '/assets/js/jquery.slides.min.js', array(), true );
 	wp_enqueue_script( 'biss-app-script', get_template_directory_uri() . '/assets/js/app.js', array(), true );

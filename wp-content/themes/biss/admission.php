@@ -55,6 +55,8 @@
 		</div>
 	</section>
 	
+
+	<div class="bg_white">
 	<section id="global_title" class="container marbotnon">
 		<div class="row">
 			<div class="col-xs-12">
@@ -537,5 +539,7 @@
 		</div>
 		</div>
 	</section>
+
+	</div><!-- BG White -->
 
 <?php include("footer-preview.php"); ?>	

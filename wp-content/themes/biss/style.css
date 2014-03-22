@@ -12,7 +12,7 @@
 @import url("assets/css/fonts.css");
 @import url("assets/css/home_carousel.css");
 
-body {font-family: "opensans", Arial, sans-serif; background: #ffffff}
+body {font-family: "opensans", Arial, sans-serif; background: #f3f3f3}
 h3 {font-family: "oswald", Arial, sans-serif;}
 p {color: #1d4441; line-height: 24px;}
 a {color: #a60d46;}
@@ -24,6 +24,7 @@ a:focus {outline: 0;}
 .pad_left {padding-left: 0;}
 .pad_right {padding-right: 0;}
 .marbot20 {margin-bottom: 20px;}
+.padbot20 {padding-bottom: 20px;}
 
 textarea {resize: none;}
 input[type="text"],
@@ -100,6 +101,10 @@ ul.nav li a {
 	height: 0;
 	padding: 0;
 	padding-left: 15px;
+}
+
+.bg_white {
+	background: #fff;
 }
 
 
@@ -264,6 +269,7 @@ ul.nav li a {
 		width: 100%;
 		border-bottom: 12px solid #e9e7e7;
 		position: relative;
+		margin-bottom: 30px;
 	}
 	
 		.global_banner img {
@@ -621,6 +627,78 @@ ul.nav li a {
 			margin-top: 10px;
 		}		
 		
+	
+	/* POST ================ */
+	
+	#post .post_box {
+		background: white;
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+	
+	#post .btn-warning {
+		width: 100%;
+		background: none;
+		border: none;
+		box-shadow: none;	
+		border-radius: 0;
+		padding: 10px 20px;
+		cursor: default;
+		font-family: "oswald", Arial, sans-serif;
+		text-transform: uppercase;
+		font-size: 18px;
+		letter-spacing: 1px;
+		background: #f56600;
+		margin: 0 0 30px 0;
+		cursor: pointer;
+	}	
+	
+		#post h3 {
+			text-transform: uppercase;
+			font-family: "opensans", Arial, sans-serif;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		
+			#post a.thumb_link img {
+				width: 100%;
+				height: auto;
+			}
+			
+			#post p img {
+				float: left;
+				margin: 0 20px 10px 0;
+				border-bottom: 5px solid #fccaa6;
+			}
+		
+			#post p.date_post {
+				margin: 0;
+				text-transform: uppercase;
+			}
+			
+			#post p.date_post.single_date {
+				text-align: right;
+				color: #40a699;
+				font-size: 18px;
+				text-transform: capitalize;
+				background: url(assets/img/bgh3post.png) repeat-x left bottom;
+				padding: 0 0 15px 0;
+				margin: 0 0 20px 0;
+			}
+		
+			#post h3 a {
+				color: #40a699;
+			}
+		
+			#post h3.borbot {
+				margin-top: 0;
+				padding: 0 0 15px 0;
+				background: url(assets/img/bgtitle.png) repeat-x left bottom;
+			}
+			
+			.banner_desc.post_title {
+				top: 55%;
+			}
 		
 
 /* FOOTER ========================== */
@@ -731,6 +809,11 @@ ul.nav li a {
 				font-size: 100%;
 				line-height: 180%;
 			}	
+			
+		#post p img {
+			width: 100%;
+			height: auto;
+		}
 		
 }
 

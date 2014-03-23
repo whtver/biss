@@ -39,7 +39,7 @@
 		</div>
 	</section>
 	
-	<section id="tab_cont_1" class="tab post">
+	<section id="tab_cont_1" class="tab post padbot20 bg_white">
 		<div class="width100">
 			<div class="container">
 			<div class="row">
@@ -64,7 +64,7 @@
 		</div>
 	</section>
 	
-	<section id="tab_cont_2" class="tab post">
+	<section id="tab_cont_2" class="tab post padbot20 bg_white">
 		<div class="width100">
 			<div class="container">
 			<div class="row">
@@ -89,7 +89,7 @@
 		</div>
 	</section>
 	
-	<section id="tab_cont_3" class="tab post">
+	<section id="tab_cont_3" class="tab post padbot20 bg_white">
 		<div class="width100">
 			<div class="container">
 			<div class="row">

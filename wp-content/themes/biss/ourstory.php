@@ -27,6 +27,8 @@
 		</div>
 	</section>
 	
+
+	<div class="bg_white">
 	<section id="global_title" class="container">
 		<div class="row">
 			<div class="col-xs-12">
@@ -118,7 +120,7 @@
 		</div>
 	</section>
 	
-	<section class="container marbot20">
+	<section class="container padbot20">
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="clearfix">
@@ -135,6 +137,7 @@
 			</div>
 		</div>	
 	</section>
+	</div> <!-- BG White -->
 
 
 <?php include("footer-preview.php"); ?>	

@@ -120,7 +120,7 @@
 		</div>
 	</section>
 	
-	<section class="container marbot20">
+	<section class="container padbot20">
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="clearfix">

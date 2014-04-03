@@ -14,7 +14,7 @@
 		</div>
 	</section>
 	
-	<section id="post" class="container">
+	<section id="post" class="container martop30">
 		<div class="row">
 			<div class="col-md-12 marbot20">
 				<p class="date_post single_date">23 January, 2014</p>			
@@ -29,7 +29,7 @@
 			</div>		
 		</div>
 	</section>
-	</div>  <!-- BG White -->
+	</div> <!-- BG White -->
 
 
 <?php include("footer-preview.php"); ?>	

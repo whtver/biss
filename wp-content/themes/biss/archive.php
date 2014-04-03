@@ -14,7 +14,7 @@
 		</div>
 	</section>
 	
-	<section id="post" class="container">
+	<section id="post" class="container martop30">
 		<div class="row">
 			<div class="col-md-6">
 				<a href="#" class="thumb_link"><img src="assets/img/news_thumb.jpg" /></a>

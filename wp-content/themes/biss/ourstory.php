@@ -14,20 +14,20 @@
 		</div>
 	</section>
 	
-	<section class="container">
+	<section id="story_top" class="container martop30 marbot30">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-xs-6">
 				<img src="assets/img/ourstory/bigthumb.jpg" />
 			</div>
-			<div class="col-md-6">
+			<div class="col-xs-6 panel_orange">
 				<h3>PROFILE</h3>
-				<p>Bina Seni Suara (BISS) sesuai dengan namanya, kursus ini fokus pada pengasahan bakat serta keterampilan di bidang tarik suara dan musik. Didukung dengan infrastruktur yang modern, dari pengadaan alat-alat musik yang berkualitas ,studio musik hingga music hall. Selain itu, instruktur yg berkualitas jebolan universitas kesenian ternama pun menjadi nilai plus untuk BISS ini. Adanya divisi vokal dan instrumen juga memberikan pilihan sekaligus kombinasi positif bagi siswa dalam mengembangkan bakat dan minat. BISS berdiri sejak thn 1996 dan bernaung dibawah yayasan PIDI, dipimpin oleh Indira Hartarto.</p>
-				<p>Program  ekstrakulikuler seperti workshop, try out, home/public concert juga merupakan sarana efektif bagi implementasi sekaligus evaluasi dari kemampuan teori bermusik dan performa siswa. Perpaduan/sinergi semua element diatas terbukti telah berhasil mencetak alumni yg profesional dibidangnya bahkan diantaranya menjadi icon baru di blantika musik Indonesia.</p>
+				<p>Bina seni suara (BISS) berpengalaman lebih dari satu dekade (berdiri sejak 1996) memberikan pendidikan musik yang berfokus pada pengasahan bakat serta keterampilan di bidang tarik suara (vokal)  dan musik (instrument), sehingga mampu mengantarkan anak pada pengembangan hobi bermusik di saat ini, serta professional di masa yang akan datang. Khusus untuk kelas piano, memakai standar ujian ABRSM - Royal (London, UK).</p>
+				<p>Di dukung dengan infrastruktur yang modern dari alat-alat music yang berkualitas, studio musik hingga function hall. Selain itu, instruktur yang berkualitas jebolan universitas kesenian ternama pun menjadi nilai plus untuk BISS. Adanya kelas vokal dan bermacam kelas instrument juga memberikan pilihan sekaligus kombinasi positif bagi siswa dalam mengembangkan bakat dan minat.</p>
 			</div>			
 		</div>
 	</section>
 	
-
+	
 	<div class="bg_white">
 	<section id="global_title" class="container">
 		<div class="row">
@@ -39,7 +39,7 @@
 	
 	<section class="container marbot20">
 		<div class="row">
-			<div class="col-xs-12 text_center">
+			<div class="col-xs-12 text_center padbot20">
 				<p>Didalam musik terdapat keindahan, kepekaan perasaan dan ketajaman berpikir. Memperkenalkan musik pada anak sejak usia dini dengan memilih jenis musik secara cermat, dapat memberikan dampak yang positif dalam menstimulasi otak anak.</p>
 			</div>
 		</div>
@@ -122,22 +122,16 @@
 	
 	<section class="container padbot20">
 		<div class="row">
-			<div class="col-xs-12">
-				<div class="clearfix">
-					<div class="col-xs-4"></div>
-					<div class="col-xs-4">
-						<div class="form-group">
-							<button type="submit" id="btn_ourstory" class="btn btn-success">
-								Apply For Admission
-							</button>
-						</div>
-					</div>
-					<div class="col-xs-4"></div>
+			<div class="col-md-4 col-md-offset-4">
+				<div class="form-group">
+					<button type="submit" id="btn_ourstory" class="btn btn-success">
+						Apply For Admission
+					</button>
 				</div>
 			</div>
 		</div>	
 	</section>
-	</div> <!-- BG White -->
+	</div>  <!-- BG White -->
 
 
 <?php include("footer-preview.php"); ?>	

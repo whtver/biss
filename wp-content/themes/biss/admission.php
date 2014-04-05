@@ -1,6 +1,5 @@
 <?php include("header-preview.php"); ?>
 
-
 	<section class="global_banner">
 		<img src="assets/img/banner/admission.jpg" />
 		<div class="banner_desc">
@@ -15,48 +14,73 @@
 		</div>
 	</section>
 	
-	<section id="global_title" class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h2>Admission</h2>
-			</div>
-		</div>
-	</section>	
-	
-	<section id="" class="marbot20 container">
-		<div class="row">
+	<section id="list_admission" class="marbot30 martop30 container">
+		<h3>Persyaratan</h3>
+		<div class="row bortop">
 			<div class="col-xs-1 text_center">1</div>
 			<div class="col-xs-11">Berusia minimal 3.5 tahun s.d dewasa untuk kelas piano dan vokal</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-1 text_center">2</div>
-			<div class="col-xs-11">Berusia minimal 3.5 tahun s.d dewasa untuk kelas piano dan vokal</div>
+			<div class="col-xs-11">Berusia minimal 7 tahun s.d dewasa untuk kelas Biola dan Gitar</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-1 text_center">3</div>
-			<div class="col-xs-11">Berusia minimal 3.5 tahun s.d dewasa untuk kelas piano dan vokal</div>
+			<div class="col-xs-11">Memenuhi kriteria standard BISS</div>
 		</div>		
 	</section>
 	
 	<section id="step_admission" class="marbot20 container">
+		<h3>Tata Cara Pendaftaran</h3>
 		<div class="row">
 			<div class="col-xs-3">
-				Tata Cara Pendaftaran
+				<img class="res_none" src="assets/img/admission/cara1.png" />
+				<div class="cara_cont">
+					<p><img src="assets/img/admission/1.png" /></p>
+					<p>Mengisi formulir pendaftaran</p>
+				</div>
 			</div>
 			<div class="col-xs-3">
-				asas
+				<img class="res_none" src="assets/img/admission/cara2.png" />
+				<div class="cara_cont">
+					<p><img src="assets/img/admission/2.png" /></p>
+					<p>Menyerahkan pas foto berwarna ukuran 4x6 1 lembar</p>
+				</div>				
 			</div>
 			<div class="col-xs-3">
-				asas
+				<img class="res_none" src="assets/img/admission/cara3.png" />
+				<div class="cara_cont">
+					<p><img src="assets/img/admission/3.png" /></p>
+					<p>Audisi</p>
+				</div>					
 			</div>
 			<div class="col-xs-3">
-				asas
+				<img class="res_none" src="assets/img/admission/cara4.png" />
+				<div class="cara_cont">
+					<p><img src="assets/img/admission/4.png" /></p>
+					<p>Placement (Penempatan)</p>
+				</div>					
 			</div>			
-		</div>
+		</div>	
 	</section>
 	
-
+	<section class="container">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4 ">
+				<div class="form-group">
+					<button type="submit" class="btn btn-success">
+						Apply For Admission
+					</button>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+		</div>	
+	</section>
+	
+	
 	<div class="bg_white">
+	
 	<section id="global_title" class="container marbotnon">
 		<div class="row">
 			<div class="col-xs-12">
@@ -146,7 +170,6 @@
 			  <h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordion" href="#accor_2">
 				  Kelas Piano
-				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
 				</a>
 			  </h4>
 			</div>
@@ -219,7 +242,6 @@
 			  <h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordion" href="#accor_3">
 				  Les Biola
-				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
 				</a>
 			  </h4>
 			</div>
@@ -292,7 +314,6 @@
 			  <h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordion" href="#accor_4">
 				  Kelas Gitar Klasik
-				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
 				</a>
 			  </h4>
 			</div>
@@ -365,7 +386,6 @@
 			  <h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordion" href="#accor_5">
 				  Kelas Keyboard
-				  <span><em>Guru:</em> Andy, Atik, Kriswanti, Dody Is, Yosep, Hening</span>
 				</a>
 			  </h4>
 			</div>
@@ -381,7 +401,7 @@
 						<h4 class="orange">
 							Rp 500.000
 							<span>45 menit</span>
-						</h4> 
+						</h4>
 					</div>
 					<div class="clearfix">
 						<div class="col-xs-8">
@@ -539,7 +559,6 @@
 		</div>
 		</div>
 	</section>
-
-	</div><!-- BG White -->
+	</div> <!-- BG White -->
 
 <?php include("footer-preview.php"); ?>	

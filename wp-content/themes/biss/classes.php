@@ -69,23 +69,11 @@
 					</div>
 					<div class="col-md-6">
 						<h4>Level Tersedia:</h4>
-						<div class="clearfix">
-							<div class="col-xs-3 padnol">
-								<div class="level">
-									<p>Basic</p>
-								</div>
-							</div>
-							<div class="col-xs-5">
-								<div class="level">
-									<p>Intermediate</p>
-								</div>
-							</div>
-							<div class="col-xs-4 padnol">
-								<div class="level">
-									<p>Advance</p>
-								</div>
-							</div>
-						</div>
+						<ul class="level_cont clearfix">
+							<li>Basic</li>
+							<li>Intermediate</li>
+							<li>Advance</li>
+						</ul>
 					</div>
 				</div>
 			</div>

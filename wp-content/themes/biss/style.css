@@ -440,20 +440,25 @@ ul.nav li a {
 					margin-top: 0;
 					color: #fff;
 				}
-				
-			.level {
-				width: 100%;
+			
+			ul.level_cont {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul.level_cont li {
+				list-style: none;
+				padding: 0;
+				margin-right: 15px;
+				width: 28%;
+				float: left;
 				background: #f3f3f3;
 				text-align: center;
 				padding: 6px 0;
 				border-top: 2px solid #abb5b4;
 				border-bottom: 1px solid #abb5b4;
+				color: #1d4441;
 			}
-				
-				.level p {
-					margin: 0;
-					color: #1d4441;
-				}
 				
 				/* Classes ======= */
 				

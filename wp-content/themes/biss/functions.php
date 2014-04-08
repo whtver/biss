@@ -1,5 +1,14 @@
 <?php
 
+//Gets post cat slug and looks for single-[cat slug].php and applies it
+add_filter('single_template', create_function(
+	'$the_template',
+	'foreach( (array) get_the_category() as $cat ) {
+		if ( file_exists(TEMPLATEPATH . "/single-{$cat->slug}.php") )
+		return TEMPLATEPATH . "/single-{$cat->slug}.php"; }
+	return $the_template;' )
+);
+
 if ( ! function_exists( 'biss_setup' ) ) :
 function biss_setup() {
 
@@ -79,7 +88,11 @@ function biss_scripts() {
 	
 	wp_enqueue_script( 'biss-bootstrap-script', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), true );
 	wp_enqueue_script( 'biss-jquery-slide-script', get_template_directory_uri() . '/assets/js/jquery.slides.min.js', array(), true );
+	wp_enqueue_script( 'biss-opacityrollover-script', get_template_directory_uri() . '/assets/js/jquery.opacityrollover.js', array(), true );
+	wp_enqueue_script( 'biss-easyResponsiveTabs-script', get_template_directory_uri() . '/assets/js/easyResponsiveTabs.js', array(), true );
+	wp_enqueue_script( 'biss-galleriffic-script', get_template_directory_uri() . '/assets/js/jquery.galleriffic.js', array(), true );
 	wp_enqueue_script( 'biss-app-script', get_template_directory_uri() . '/assets/js/app.js', array(), true );
+	
 }
 add_action( 'wp_enqueue_scripts', 'biss_scripts' );
 

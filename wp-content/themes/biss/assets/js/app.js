@@ -37,6 +37,23 @@ $(document).ready(function() {
 
 });
 
+// $(document).ready(function() {
+// 	$('.tab:first').hide();
+// 	//$('#tab-nav a:first').addClass('active_tab');
+	
+// 	$('#tab_nav a').click(function(){
+// 		var tabID = $(this).attr('href');
+		
+// 		$('.tab').hide();
+// 		$(tabID).show();
+		
+// 		$('#tab_nav a').removeClass('active_tab');
+// 		$(this).addClass('active_tab');
+		
+// 		return false;
+// 	});
+// });
+
 $(document).ready(function() {
 	$('[data-toggle="tabajax"]').click(function(e) {
     	var $this = $(this),

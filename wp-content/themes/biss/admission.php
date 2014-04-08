@@ -58,6 +58,13 @@
 				<img class="res_none" src="assets/img/admission/cara4.png" />
 				<div class="cara_cont">
 					<p><img src="assets/img/admission/4.png" /></p>
+					<p>Placement ()</p>
+				</div>					
+			</div>
+			<div class="col-xs-3">
+				<img class="res_none" src="assets/img/admission/cara4.png" />
+				<div class="cara_cont">
+					<p><img src="assets/img/admission/4.png" /></p>
 					<p>Placement (Penempatan)</p>
 				</div>					
 			</div>			

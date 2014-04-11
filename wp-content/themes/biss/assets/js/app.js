@@ -71,13 +71,13 @@ $(document).ready(function() {
 	});
 });
 
-$(document).ready(function(){
-	var animasi = {scrollTop: $('#tab_nav').offset().top};
-	$('#tab_nav a').click(function() {
-		$('body,html').animate(animasi, 500);
-		return false;
-	});
-});
+// $(document).ready(function(){
+// 	var animasi = {scrollTop: $('#tab_nav').offset().top};
+// 	$('#tab_nav a').click(function() {
+// 		$('body,html').animate(animasi, 500);
+// 		return false;
+// 	});
+// });
 
 $(document).ready(function () {
 	$('#horizontalTab').easyResponsiveTabs({

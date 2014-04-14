@@ -54,7 +54,7 @@
         }
 
         //Add load more button
-        $el.append('<div class="load-more-btn-wrap"><button id="load-more" class="more">' + $button_text + '</button></div>');
+        $el.append('<div class="load-more-btn-wrap"><button id="load-more" class="btn btn-warning">' + $button_text + '</button></div>');
         var $button = $('#load-more');
 
         $('#load-more').text("Loading...");

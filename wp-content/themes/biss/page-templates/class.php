@@ -28,7 +28,7 @@
 					$icon = get_sub_field('icon_submenu');
 					$title = get_sub_field('title_submenu');
 					$link = get_sub_field('post_url_submenu'); ?>
-					<a href="<?php echo $link ?>" class="col-xs-<?php echo $column_size ?> bg_white" data-toggle="tabajax" data-target="#tab_<?php echo $i ?>">
+					<a id = "<?php echo $title ?>" href="<?php echo $link ?>" class="col-xs-<?php echo $column_size ?> bg_white" data-toggle="tabajax" data-target="#tab_<?php echo $i ?>">
 						<img src="<?php echo $icon ?>" />
 						<p><?php echo $title ?></p>
 					</a>
@@ -65,4 +65,10 @@
 			</div>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+		    $("#<?php echo get_query_var('class-type'); ?>").trigger('click');
+		});
+	</script>
 <?php get_footer(); ?>

@@ -7,7 +7,7 @@
 	</div>
 	</div>
 </div>
-<div class="container">
+<div class="container padbot20">
 	<div class="row">
 		<div class="col-md-12 padnol">
 			<img class="long_thumb" src="<?php the_field('banner_post') ?>" />		

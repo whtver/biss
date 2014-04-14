@@ -3,11 +3,15 @@
 		<h3 class="panel-title"><?php the_field('search_form_title') ?></h3>
 	</div>
 	<div class="panel-body green">
-		<form role="search form" action="<?php echo site_url('/'); ?>" method="get">
+		<form role="search form" action="<?php echo site_url('/classes/'); ?>" method="get">
 			<div class="row">
 				<div class="col-md-10">
 					<div class="form-group">
-						<input type="search" name="s" class="form-control" id="exampleInputEmail2" placeholder="ENTER SEARCH KEYWORD">
+						<select name="class-type" class="form-control" aria-invalid="false">
+							<option value="Vokal">Kelas Vokal</option>
+							<option value="Gitar">Kelas Gitar</option>
+							<option value="Piano">Kelas Piano</option>
+						</select>
 					</div>
 				</div>
 				<div class="col-md-2">

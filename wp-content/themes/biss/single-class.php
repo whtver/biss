@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div class="width100 classes">
 	<div class="container">
 		<div class="row">
@@ -71,4 +72,3 @@
 		<div class="col-md-4"></div>
 	</div>
 </div>
-<?php //get_footer(); ?>

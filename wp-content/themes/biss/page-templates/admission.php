@@ -150,98 +150,14 @@
 			</div>			
 		</div>	
 	</section>
-
 	<section class="form100">
 		<div class="container">
-		<div class="row">
-			<form>
-				<div class="col-md-12 form_bottom_cont">
-				
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-12">
-								<h4>
-									Your basic information
-								</h4>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name_admission">Full Name</label>
-									<input type="text" class="form-control" id="name_admission" />
-								</div>
-								<div class="form-group">
-									<label for="tel_admission">Phone Number</label>
-									<input type="tel" class="form-control" id="tel_admission" />
-								</div>
-								<div class="form-group">
-									<label for="email_admission">Email</label>
-									<input type="email" class="form-control" id="email_admission" />
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-md-12">
-							<h4>
-								Your class of choice
-							</h4>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group">
-											<select class="form-control">
-												<option>Kelas Vokal</option>
-												<option>Kelas Vokal</option>
-												<option>Kelas Vokal</option>
-												<option>Kelas Vokal</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<select class="form-control">
-												<option>Kelas Spesifik/Prvate</option>
-												<option>Kelas Spesifik/Prvate</option>
-												<option>Kelas Spesifik/Prvate</option>
-												<option>Kelas Spesifik/Prvate</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-						
-					<div class="row">
-						<div class="col-md-12">
-							<div class="col-md-9">
-								<p>Aplikasi anda akan di review oleh tim BISS yang kemudian akan menghubungi Anda untuk di proses lebih lanjut.</p>
-							</div>
-							<div class="col-md-3">
-								<div class="form-group">
-									<button type="submit" class="btn btn-success">
-										Send Application
-									</button>
-								</div>
-							</div>						
-						</div>						
-					</div>						
-				</div>			
-			</form>
-		</div>
+			<div class="row">
+				<?php the_field('admission_form'); ?>
+			</div>
 		</div>
 	</section>
+
 	</div> <!-- BG White -->
 
 <?php get_footer(); ?>

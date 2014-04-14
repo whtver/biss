@@ -4,18 +4,17 @@
 	</div>
 	<div class="panel-body orange">
 		<?php 
-			$the_query = new WP_Query( array('posts_per_page' => 3, 'category_name' => 'highlights') ); ?>
+			$the_query = new WP_Query( array('posts_per_page' => 3, 'category_name' => 'news') ); ?>
 
 			<?php if ( $the_query->have_posts() ) : ?>
 				<?php $i = 1; ?>
 
 			  	<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-			  		<?php $image_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
 					<div class="row featured_art">
 						  <div class="col-xs-3">
 						  	<?php if($i == 1): ?>
 								<a href="#" class="thumbnail">
-								  <img src="<?php echo $image_url ?>">
+									<?php the_post_thumbnail('news-thumb');?>
 								</a>
 								<p class="date_hl mobile_tricky" style="display: none;"><?php echo get_the_date(); ?></p>
 							<?php else: ?>

@@ -1,146 +1,61 @@
-<?php include("header-preview.php"); ?>
-<section class="slidehome">
-	<div class="clearfix nav_cont_slide">
-		<a href="#" class="col-xs-6 cus_prev">&laquo;</a>
-		<a href="#" class="col-xs-6 cus_next">&raquo;</a>
-	</div>
-	<div id="slides">
-		<div>
-			<div class="slide_caption">
-				<h3>Welcome 1</h3>
-				<p class="desc">Lorem ipsum dolor sit amet</p>
-				<p>Curabitur tincidunt, felis et fermentum commodo, magna massa imperdiet lectus, nec aliquam justo leo sit amet turpis.</p>
-				<div class="row">
-					<div class="col-xs-8">
-					<button type="button" class="btn btn-success">Apply for Admission</button>
-					</div>
-				</div>
-			</div>
-			<img src="assets/img/slide/1.jpg" />
-		</div>
-		<div>
-			<div class="slide_caption">
-				<h3>Welcome 2</h3>
-				<p class="desc">Lorem ipsum dolor sit amet</p>
-				<p>Curabitur tincidunt, felis et fermentum commodo, magna massa imperdiet lectus, nec aliquam justo leo sit amet turpis.</p>
-				<div class="row">
-					<div class="col-xs-8">
-					<button type="button" class="btn btn-success">Apply for Admission</button>
-					</div>
-				</div>
-			</div>
-			<img src="assets/img/slide/2.jpg" />
-		</div>
-		<div>
-			<div class="slide_caption">
-				<h3>Welcome 3</h3>
-				<p class="desc">Lorem ipsum dolor sit amet</p>
-				<p>Curabitur tincidunt, felis et fermentum commodo, magna massa imperdiet lectus, nec aliquam justo leo sit amet turpis.</p>
-				<div class="row">
-					<div class="col-xs-8">
-					<button type="button" class="btn btn-success">Apply for Admission</button>
-					</div>
-				</div>
-			</div>	
-			<img src="assets/img/slide/3.jpg" />
-		</div>
-		<div>
-			<div class="slide_caption">
-				<h3>Welcome 4</h3>
-				<p class="desc">Lorem ipsum dolor sit amet</p>
-				<p>Curabitur tincidunt, felis et fermentum commodo, magna massa imperdiet lectus, nec aliquam justo leo sit amet turpis.</p>
-				<div class="row">
-					<div class="col-xs-8">
-					<button type="button" class="btn btn-success">Apply for Admission</button>
-					</div>
-				</div>
-			</div>
-			<img src="assets/img/slide/4.jpg" />
-		</div>
-		<div>
-			<div class="slide_caption">
-				<h3>Welcome 5</h3>
-				<p class="desc">Lorem ipsum dolor sit amet</p>
-				<p>Curabitur tincidunt, felis et fermentum commodo, magna massa imperdiet lectus, nec aliquam justo leo sit amet turpis.</p>
-				<div class="row">
-					<div class="col-xs-8">
-					<button type="button" class="btn btn-success">Apply for Admission</button>
-					</div>
-				</div>
-			</div>
-			<img src="assets/img/slide/5.jpg" />
-		</div>	
-	</div>
-</section>
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme and one
+ * of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query,
+ * e.g., it puts together the home page when no home.php file exists.
+ *
+ * @link http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Twenty_Fourteen
+ * @since Twenty Fourteen 1.0
+ */
 
-<section id="res_feat" class="container">
-	<div class="row">
-		<div class="col-xs-6 col-md-6">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title">Highlights</h3>
-				</div>
-				<div class="panel-body orange">
-					<div class="row featured_art">
-						  <div class="col-xs-3">
-							<a href="#" class="thumbnail">
-							  <img src="assets/img/thumb.png" alt="">
-							</a>
-							<p class="date_hl mobile_tricky" style="display: none;">23 January, 2014</p>
-						  </div>
-						<div class="col-xs-9">
-							<div class="feat_art">
-								<p class="date_hl">23 January, 2014</p>
-								<h4><a href="#">Konser "The Miracle of Love" BISS</a></h4>
-								<p class="feat_desc">Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row featured_art">
-					  <div class="col-xs-3">
-						<p class="date_hl">23 January, 2014</p>
-					  </div>
-						<div class="col-xs-9">
-							<h4><a href="#">Konser "The Miracle of Love" BISS</a></h4>
-						</div>
-					</div>
-					<div class="row featured_art">
-					  <div class="col-xs-3">
-						<p class="date_hl">23 January, 2014</p>
-					  </div>					
-						<div class="col-xs-9">
-							<h4><a href="#">Konser "The Miracle of Love" BISS</a></h4>
-						</div>
-					</div>						
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-6 col-md-6">
-			<div class="panel panel-default">
-				<div class="panel-heading green">
-					<h3 class="panel-title">Search Our Class</h3>
-				</div>
-				<div class="panel-body green">
-					<form role="form">
-						<div class="row">
-							<div class="col-md-10">
-								<div class="form-group">
-									<input type="text" class="form-control" id="exampleInputEmail2" placeholder="ENTER SEARCH KEYWORD">
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="form-group">
-									<button type="submit" class="btn btn-success">
-										<span class="glyphicon glyphicon-search"></span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<p>Curabitur tincidunt, felis et fermentum commodo, magna massa imperdiet lectus, nec aliquam justo leo sit amet turpis. </p>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<?php include("footer-preview.php"); ?>	
+get_header(); ?>
+
+<div id="main-content" class="main-content">
+
+<?php
+	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
+		// Include the featured content template.
+		get_template_part( 'featured-content' );
+	}
+?>
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		<?php
+			if ( have_posts() ) :
+				// Start the Loop.
+				while ( have_posts() ) : the_post();
+
+					/*
+					 * Include the post format-specific template for the content. If you want to
+					 * use this in a child theme, then include a file called called content-___.php
+					 * (where ___ is the post format) and that will be used instead.
+					 */
+					get_template_part( 'content', get_post_format() );
+
+				endwhile;
+				// Previous/next post navigation.
+				twentyfourteen_paging_nav();
+
+			else :
+				// If no content, include the "No posts found" template.
+				get_template_part( 'content', 'none' );
+
+			endif;
+		?>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	<?php get_sidebar( 'content' ); ?>
+</div><!-- #main-content -->
+
+<?php
+get_sidebar();
+get_footer();

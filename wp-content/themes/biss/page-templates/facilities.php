@@ -43,6 +43,9 @@
 		<?php $x = 1 ?>
 		<?php while($x < $count): ?>
 			<div class="tab-pane post" id="tab_<?php echo $x ?>">
+				<div class="text-center">
+					<img src="http://i.stack.imgur.com/Pi5r5.gif" />
+				</div>
 			</div>
 			<?php $x++ ?>
 		<?php endwhile; ?>

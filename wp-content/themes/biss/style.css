@@ -266,6 +266,11 @@ ul.nav li a {
 
 	.panel-body.green .btn-success {
 		font-size: inherit;
+		padding: 0;
+	}
+	
+	.panel-body.green .btn-success .glyphicon {
+		padding: 18px 22px;
 	}
 
 	.panel-body.green p {
@@ -290,6 +295,8 @@ ul.nav li a {
 			padding: 15px;
 			border: 1px solid #DBDBDB;
 		}
+		
+		
 
 	
 /* PAGE ========================== */
@@ -1077,7 +1084,7 @@ ul.nav li a {
 
 	#footer p {
 		margin: 0;
-		margin-bottom: 5px;
+		margin-bottom: 0;
 		color: #b8cdc8;
 	}
 	
@@ -1131,6 +1138,10 @@ ul.nav li a {
 		margin-top: 20px;
 		padding: 20px 0 20px;
 		border-top: 1px solid #b8cdc8;
+	}
+	
+	#footer .copy p {
+		font-size: 12px;
 	}
 	
 	
@@ -1192,6 +1203,10 @@ ul.nav li a {
 			width: 100%;
 			height: auto;
 		}
+		
+	.panel-body.green .col-md-2.pad_left {
+		padding-left: 15px;
+	}		
 		
 	/* Admission ========== */
 		
@@ -1283,6 +1298,8 @@ ul.nav li a {
 	.global_banner {
 		margin-top: 110px;
 	}
+	
+
 	
 	/* Our Story ========== */
 	

@@ -12,3 +12,4 @@ wp-content/backups/
 sitemap.xml.gz
 .DS_Store
 wp-content/.DS_Store
+/searchreplacedb.php

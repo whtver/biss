@@ -12,11 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link href="assets/img/favicon.ico" rel="icon" type="image/x-icon" />
-    <!--[if lt IE 9]>
+    <!--[if IE]>
       <script src="<?php echo get_template_directory_uri(). '/assets/js/html5shiv.js' ?>"></script>
       <script src="<?php echo get_template_directory_uri(). '/assets/js/respond.min.js' ?>"></script>
-    <![endif]-->	
+    <![endif]-->
   <?php wp_head(); ?>
+  <script src="<?php echo get_template_directory_uri(). '/assets/js/customselect.js' ?>"></script>
 </head>
 	
 <body>

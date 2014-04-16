@@ -30,6 +30,7 @@ a:focus {outline: 0;}
 .marbot15 {margin-bottom: 15px;}
 .padbot20 {padding-bottom: 20px;}
 .padbot25 {padding-bottom: 25px;}
+.padbot30 {padding-bottom: 30px;}
 
 textarea {resize: none;}
 input[type="text"],
@@ -179,12 +180,22 @@ ul.nav li a {
 
 .panel h4 {
 	margin-top: 0;
+	margin-bottom: 0;
 	font-weight: bold;
 	font-size: 13px;
 	text-transform: uppercase;
+	line-height: 20px;
 }
 
 .panel p {line-height: inherit;}
+
+
+.full_achive {text-align: right;}
+.full_achive p a {
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+}
 
 .panel .col-xs-3 {
 	padding: 0;
@@ -233,6 +244,7 @@ ul.nav li a {
 		font-size: 10px;
 		color: #3a2200;
 		text-shadow: none;
+		margin-bottom: 10px;
 	}
 	
 	.row.featured_art a {
@@ -247,7 +259,7 @@ ul.nav li a {
 .panel-body.green {
 	background: #284D4A;
 	background: rgba(29,68,65,0.95);
-	min-height: 196px;
+	min-height: 206px;
 	padding-left: 23px;
 	padding-right: 23px;	
 }
@@ -272,6 +284,12 @@ ul.nav li a {
 		background: white;
 		height: 55px;
 	}
+	
+		span.customSelect { 
+			background: #fff url(assets/img/select.png) no-repeat center right;
+			padding: 15px;
+			border: 1px solid #DBDBDB;
+		}
 
 	
 /* PAGE ========================== */

@@ -7,7 +7,7 @@
 			<div class="row">
 				<div class="col-md-10">
 					<div class="form-group">
-						<select name="class-type" class="form-control" aria-invalid="false">
+						<select name="class-type" class="form-control styled_select" aria-invalid="false">
 							<option value="Vokal">Kelas Vokal</option>
 							<option value="Gitar">Kelas Gitar</option>
 							<option value="Piano">Kelas Piano</option>

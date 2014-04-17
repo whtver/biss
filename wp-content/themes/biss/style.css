@@ -378,7 +378,7 @@ ul.nav li a {
 	
 		#tab_nav .col-xs-4:last-child {
 			border-left: none;
-			border-top: 2px solid #d37418;
+			border-top: 2px solid #d37418; 
 		}
 		
 		#tab_nav .col-xs-4:first-child {
@@ -1397,13 +1397,17 @@ ul.nav li a {
 			margin-bottom: 0;
 		}
 		
-	/* Footer ========== */
-		
+
+}
+
+@media (max-width: 700px) {
 	#footer .col-xs-8,
 	#footer .col-xs-4 {
 		float: none;
 		width: 100%;
+		display: none;
 	}
+	
 }
 
 @media (max-width: 550px) {
@@ -1417,7 +1421,7 @@ ul.nav li a {
 		font-size: 140%;
 		margin: 0;
 		margin-bottom: 5px;
-	}
+	}	
 }
 
 @media (max-width: 500px) {

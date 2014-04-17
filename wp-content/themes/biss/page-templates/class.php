@@ -43,7 +43,8 @@
 		<?php while($x < $count): ?>
 			<div class="tab post padbot20 bg_white" id="tab_<?php echo $x ?>">
 				<div class="text-center">
-					<img src="http://i.stack.imgur.com/Pi5r5.gif" />
+					<br/>
+					<img src="<?php echo get_template_directory_uri(). '/assets/img/loader-class.gif' ?>" />
 				</div>
 			</div>
 			<?php $x++ ?>

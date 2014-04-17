@@ -61,4 +61,6 @@
 			<?php the_field('contact_form'); ?>
 		</div>
 	</div>
-</section>		
+</section>
+
+<?php get_footer(); ?>

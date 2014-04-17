@@ -95,7 +95,7 @@
 				</a>
 			  </h4>
 			</div>
-			<div id="accor_<?php echo $i; ?>" class="panel-collapse collapse <?php echo ($i == 1 ? 'in' : ''); ?>">
+			<div id="accor_<?php echo $i; ?>" class="panel-collapse collapse">
 			  <div class="panel-body">
 				
 				<!-- BEGIN Accordion Content -->

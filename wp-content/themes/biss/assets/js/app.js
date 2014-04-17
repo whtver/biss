@@ -1,3 +1,7 @@
+$(document).ready(function(){
+	$('.styled_select').customSelect();
+});
+
 $(document).ready(function() {
       $('#slides').slidesjs({
         width: 1280,

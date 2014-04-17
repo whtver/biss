@@ -1,11 +1,11 @@
 <footer id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-md-8">
+			<div class="col-xs-8">
 				<h3><?php the_field('footer_title', '75'); ?></h3>
 				<?php the_field('footer_address', '75'); ?>
 			</div>
-			<div class="col-xs-6 col-md-4">
+			<div class="col-xs-4">
 				<div class="row">
 					<div class="col-md-6">
 						<a href="http://twitter.com/<?php the_field('twitter', '75'); ?>" target="_blank" class="foot_tw">

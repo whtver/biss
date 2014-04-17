@@ -50,7 +50,7 @@
 		<?php endwhile; ?>
 	</div>
 	
-	<section id="curriculum" class="container padbot25">
+	<section id="curriculum" class="container padbot30 martop30">
 		<div class="row">
 			<div class="col-xs-6 cur_green">
 				<img src="<?php the_field('room_concert_image'); ?>" />

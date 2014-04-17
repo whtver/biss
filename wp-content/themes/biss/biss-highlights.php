@@ -41,5 +41,10 @@
 			<?php else:  ?>
 			  <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 		<?php endif; ?>
+		<div class="row full_achive">
+			<div class="col-xs-12">
+				<p><a href="#">View Full Archive</a></p>
+			</div>
+		</div>
 	</div>
 </div>

@@ -30,6 +30,7 @@ a:focus {outline: 0;}
 .marbot15 {margin-bottom: 15px;}
 .padbot20 {padding-bottom: 20px;}
 .padbot25 {padding-bottom: 25px;}
+.padbot30 {padding-bottom: 30px;}
 
 textarea {resize: none;}
 input[type="text"],
@@ -179,12 +180,22 @@ ul.nav li a {
 
 .panel h4 {
 	margin-top: 0;
+	margin-bottom: 0;
 	font-weight: bold;
 	font-size: 13px;
 	text-transform: uppercase;
+	line-height: 20px;
 }
 
 .panel p {line-height: inherit;}
+
+
+.full_achive {text-align: right;}
+.full_achive p a {
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+}
 
 .panel .col-xs-3 {
 	padding: 0;
@@ -233,6 +244,7 @@ ul.nav li a {
 		font-size: 10px;
 		color: #3a2200;
 		text-shadow: none;
+		margin-bottom: 10px;
 	}
 	
 	.row.featured_art a {
@@ -247,13 +259,18 @@ ul.nav li a {
 .panel-body.green {
 	background: #284D4A;
 	background: rgba(29,68,65,0.95);
-	min-height: 196px;
+	min-height: 206px;
 	padding-left: 23px;
 	padding-right: 23px;	
 }
 
 	.panel-body.green .btn-success {
 		font-size: inherit;
+		padding: 0;
+	}
+	
+	.panel-body.green .btn-success .glyphicon {
+		padding: 18px 22px;
 	}
 
 	.panel-body.green p {
@@ -272,6 +289,14 @@ ul.nav li a {
 		background: white;
 		height: 55px;
 	}
+	
+		span.customSelect { 
+			background: #fff url(assets/img/select.png) no-repeat center right;
+			padding: 15px;
+			border: 1px solid #DBDBDB;
+		}
+		
+		
 
 	
 /* PAGE ========================== */
@@ -353,7 +378,7 @@ ul.nav li a {
 	
 		#tab_nav .col-xs-4:last-child {
 			border-left: none;
-			border-top: 2px solid #d37418;
+			border-top: 2px solid #d37418; 
 		}
 		
 		#tab_nav .col-xs-4:first-child {
@@ -1059,7 +1084,7 @@ ul.nav li a {
 
 	#footer p {
 		margin: 0;
-		margin-bottom: 5px;
+		margin-bottom: 0;
 		color: #b8cdc8;
 	}
 	
@@ -1113,6 +1138,10 @@ ul.nav li a {
 		margin-top: 20px;
 		padding: 20px 0 20px;
 		border-top: 1px solid #b8cdc8;
+	}
+	
+	#footer .copy p {
+		font-size: 12px;
 	}
 	
 	
@@ -1174,6 +1203,10 @@ ul.nav li a {
 			width: 100%;
 			height: auto;
 		}
+		
+	.panel-body.green .col-md-2.pad_left {
+		padding-left: 15px;
+	}		
 		
 	/* Admission ========== */
 		
@@ -1265,6 +1298,8 @@ ul.nav li a {
 	.global_banner {
 		margin-top: 110px;
 	}
+	
+
 	
 	/* Our Story ========== */
 	
@@ -1362,13 +1397,17 @@ ul.nav li a {
 			margin-bottom: 0;
 		}
 		
-	/* Footer ========== */
-		
+
+}
+
+@media (max-width: 700px) {
 	#footer .col-xs-8,
 	#footer .col-xs-4 {
 		float: none;
 		width: 100%;
+		display: none;
 	}
+	
 }
 
 @media (max-width: 550px) {
@@ -1382,7 +1421,7 @@ ul.nav li a {
 		font-size: 140%;
 		margin: 0;
 		margin-bottom: 5px;
-	}
+	}	
 }
 
 @media (max-width: 500px) {

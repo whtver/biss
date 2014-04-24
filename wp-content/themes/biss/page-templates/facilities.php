@@ -39,12 +39,12 @@
 		</div>
 	</section>
 
-	<div class="tab-content">
+	<div class="tab-content padbot30">
 		<?php $x = 1 ?>
 		<?php while($x < $count): ?>
 			<div class="tab-pane post" id="tab_<?php echo $x ?>">
 				<div class="text-center">
-					<img src="http://i.stack.imgur.com/Pi5r5.gif" />
+					<img src="<?php echo get_template_directory_uri(). '/assets/img/loader-class.gif' ?>" />
 				</div>
 			</div>
 			<?php $x++ ?>

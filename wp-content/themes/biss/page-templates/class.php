@@ -37,6 +37,8 @@
 			<?php endif; ?>	
 		</div>
 	</section>
+	
+	<section id="handler"></section>
 
 	<div class="tab-content">
 		<?php $x = 1 ?>

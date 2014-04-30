@@ -68,6 +68,8 @@ $(document).ready(function() {
         	$(targ).html(data);
     	});
 
+
+		
     	$this.tab('show');
     	$('#tab_nav a').removeClass('active_tab');
 		$(this).addClass('active_tab');
@@ -99,13 +101,13 @@ $(document).ready(function () {
 	});
 });
 
-/* $(document).ready(function(){
-	var animasi = {scrollTop: $('#tab_nav').offset().top};
+$(document).ready(function(){
+	var animasi = {scrollTop: $('#handler').offset().top};
 	$('#tab_nav a').click(function() {
-		$('body,html').animate(animasi, 500);
+		$('body,html').animate(animasi, 0);
 		return false;
 	});
-}); */
+});
 
 
 

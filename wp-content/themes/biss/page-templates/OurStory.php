@@ -31,7 +31,7 @@
 		</div>
 	</section>		
 	
-	<section class="container marbot20">
+	<section id="list_story" class="container marbot20">
 		<?php the_field('mission_description_our_story'); ?>			
 	</section>
 	

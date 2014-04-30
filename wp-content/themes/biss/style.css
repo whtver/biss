@@ -376,9 +376,12 @@ ul.nav li a {
 		text-decoration: none;
 	}
 	
+		#tab_nav .col-xs-4 {
+			border-top: 2px solid #d37418; 
+		}	
+	
 		#tab_nav .col-xs-4:last-child {
 			border-left: none;
-			border-top: 2px solid #d37418; 
 		}
 		
 		#tab_nav .col-xs-4:first-child {
@@ -393,9 +396,9 @@ ul.nav li a {
 		#tab_nav .col-xs-2:first-child {border-right: none}
 		#tab_nav .col-xs-2:last-child {border-left: none}
 		
-		#tab_nav .col-xs-2:nth-child(2n){
+/* 		#tab_nav .col-xs-2:nth-child(2n){
 			border-top: 2px solid #1d4441;
-		}
+		} */
 		
 		#tab_nav .col-xs-4 p,
 		#tab_nav .col-xs-2 p {
@@ -838,9 +841,36 @@ ul.nav li a {
 		#tagline {
 			background: #1d4441;
 			color: #fff;
-			padding: 5px 0 40px;
+			padding-top: 5px;
+			padding-bottom: 40px;
 			border-top: 5px solid #f56600;
 		}
+		
+			#list_story .col-xs-1 p,
+			#list_story .col-xs-11 p {
+				color: #40a699;
+				font-size: 17px;
+				line-height: 32px;
+				margin-bottom: 20px;
+			}
+		
+			#list_story .col-xs-1 {
+				padding: 0;
+			}
+			
+			#list_story .col-xs-11 {
+				padding-right: 0;
+			}			
+			
+				#list_story .col-xs-1 p {
+					text-indent: 9px;
+					color: #97a39f;
+					font-style: italic;
+					border: 1px solid #97a39f;
+					width: 35px;
+					height: 35px;
+					border-radius: 35px;
+				}
 		
 		#btn_ourstory.btn-success {
 			text-transform: uppercase;
@@ -850,6 +880,7 @@ ul.nav li a {
 			margin-top: -30px;
 			font-family: "oswald", Arial, sans-serif;
 		}
+		
 
 	/* Contact ================ */
 
@@ -1001,8 +1032,10 @@ ul.nav li a {
 			.nav-controls a.next {
 				text-indent: -9999px;
 				display: inline-block;
-				padding: 5px 15px;
+				padding: 15px;
 				margin: 0 10px 0 0;
+				width: 9px;
+				height: 15px;
 			}
 			
 			.nav-controls a.prev {
@@ -1461,6 +1494,9 @@ ul.nav li a {
 	.banner_desc h3 {
 		margin-top: 40px;
 		font-size: 180%;
+	}
+	#tab_nav .col-xs-4 p {
+		font-size: 12px;
 	}	
 }
 

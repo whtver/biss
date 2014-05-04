@@ -7,13 +7,7 @@
 			</div>
 			<div class="col-xs-4">
 				<div class="row">
-					<div class="col-md-6">
-						<a href="http://twitter.com/<?php the_field('twitter', '75'); ?>" target="_blank" class="foot_tw">
-							<span class="cyan">Twitter</span>
-							<span>@<?php the_field('twitter', '75'); ?></span>
-						</a>
-					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-md-offset-6">
 						<a href="http://facebook.com/<?php the_field('facebook', '75'); ?>" target="_blank" class="foot_fb">
 							<span class="cyan">Facebook</span>
 							<span>@<?php the_field('facebook', '75'); ?></span>

@@ -44,6 +44,7 @@
 		<?php while($x < $count): ?>
 			<div class="tab-pane post" id="tab_<?php echo $x ?>">
 				<div class="text-center">
+					<br/>
 					<img src="<?php echo get_template_directory_uri(). '/assets/img/loader-class.gif' ?>" />
 				</div>
 			</div>

@@ -18,7 +18,6 @@ get_header(); ?>
 
 				// vars
 				$title = get_sub_field('front_page_slide_title');
-				$subtitle = get_sub_field('front_page_slide_subtitle');
 				$description = get_sub_field('front_page_slide_description');
 				$call_to_action_text = get_sub_field('front_page_slide_call_to_action_text');
 				$call_to_action_url = get_sub_field('front_page_slide_call_to_action_url');
@@ -29,7 +28,6 @@ get_header(); ?>
 		 		<div>
 					<div class="slide_caption">
 						<h3><?php echo $title ?></h3>
-						<p class="desc"><?php echo $subtitle ?></p>
 						<p><?php echo $description ?></p>
 						<?php if ($call_to_action_text): ?>
 							<div class="row">

@@ -43,7 +43,7 @@
 		<?php endif; ?>
 		<div class="row full_achive">
 			<div class="col-xs-12">
-				<p><a href="#">View Full Archive</a></p>
+				<p><a href="<?php echo get_permalink( 144 ); ?>">View Full Archive</a></p>
 			</div>
 		</div>
 	</div>

@@ -52,6 +52,22 @@
 			<?php $x++ ?>
 		<?php endwhile; ?>
 	</div>
+
+	<section id="global_title" class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Kenaikan Kelas</h2>
+			</div>
+		</div>
+	</section>
+
+	<section id="list_story" class="container marbot20">
+		<div class="row">
+			<div class="col-xs-12 text_center padbot20">
+				<p><?php the_field('deskripsi_untuk_kenaikan_kelas'); ?></p>
+			</div>
+		</div>
+	</section>
 	
 	<section id="curriculum" class="container padbot30 martop30">
 		<div class="row">

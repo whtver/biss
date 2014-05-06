@@ -89,14 +89,15 @@ $(document).ready(function () {
 	$('#horizontalTab').easyResponsiveTabs({
 		type: 'default',
 		width: 'auto',
-		fit: true,
+		fit: false,
 		closed: 'accordion',
 		activate: function(event) {
-			var $tab = $(this);
+			console.log('open');
+/* 			var $tab = $(this);
 			var $info = $('#tabInfo');
 			var $name = $('span', $info);
 			$name.text($tab.text());
-			$info.show();
+			$info.show(); */
 		}
 	});
 });

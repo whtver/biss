@@ -42,7 +42,7 @@
 
 	<div class="tab-content">
 		<?php $x = 1 ?>
-		<?php while($x < $count): ?>
+		<?php while($x <= $count): ?>
 			<div class="tab post padbot20 bg_white" id="tab_<?php echo $x ?>">
 				<div class="text-center">
 					<br/>

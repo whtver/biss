@@ -41,7 +41,7 @@
 
 	<div class="tab-content padbot30">
 		<?php $x = 1 ?>
-		<?php while($x < $count): ?>
+		<?php while($x <= $count): ?>
 			<div class="tab-pane post" id="tab_<?php echo $x ?>">
 				<div class="text-center">
 					<br/>

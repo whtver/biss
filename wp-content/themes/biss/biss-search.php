@@ -11,6 +11,9 @@
 							<option value="Vokal">Kelas Vokal</option>
 							<option value="Gitar">Kelas Gitar</option>
 							<option value="Piano">Kelas Piano</option>
+							<option value="Biola">Kelas Biola</option>
+							<option value="Dance">Kelas Dance</option>
+							<option value="Khusus">Kelas Khusus</option>
 						</select>
 					</div>
 				</div>

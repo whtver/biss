@@ -370,8 +370,6 @@ ul.nav li a {
 	
 	#tab_nav .col-xs-2 {
 		margin-bottom: 0;
-		/* hapus jika tab jadi 6 */
-		width: 20%;
 	}
 	
 	#tab_nav a:hover {

@@ -438,6 +438,8 @@ ul.nav li a {
 			}
 			
 				img.long_thumb {
+					width: 100%;
+					height: auto;
 					border-bottom: 4px solid #fccaa6;
 				}
 			
@@ -476,7 +478,7 @@ ul.nav li a {
 				padding: 0;
 			}
 			
-			ul.level_cont li {
+/* 			ul.level_cont li {
 				list-style: none;
 				padding: 0;
 				margin-right: 15px;
@@ -488,7 +490,48 @@ ul.nav li a {
 				border-top: 2px solid #abb5b4;
 				border-bottom: 1px solid #abb5b4;
 				color: #1d4441;
+			} */
+			
+			ul.level_cont li {
+				list-style: none;
+				padding: 0;
+				margin-right: 15px;
+				float: left;
+				width: 28%;
 			}
+			
+				ul.level_cont li span {
+					display: block;
+					width: 100%;
+					background: #f3f3f3;
+					text-align: center;
+					padding: 6px 5px;
+					border-top: 2px solid #abb5b4;
+					border-bottom: 1px solid #abb5b4;
+					color: #1d4441;
+				}
+				
+				ul.level_cont ul {
+					margin: 0;
+					padding: 0;
+				}
+				
+				ul.level_cont ul li {
+					margin: 0;
+					float: none;
+					width: 100%;
+				}
+				
+				ul.level_cont ul li:first-child {
+					margin-top: 5px;
+				}
+				
+					ul.level_cont ul li span {
+						font-size: 12px;
+						background: #C8D1D0;
+						border-top: none;
+						border-bottom: 1px solid #34544F;
+					}
 				
 				/* Classes ======= */
 				
@@ -1486,7 +1529,14 @@ ul.nav li a {
 		
 	#step_admission .col-xs-3 {
 		width: 100%;
-	}	
+	}
+	
+	/* Class Level */
+	
+	ul.level_cont li {
+		margin-top: 10px;
+		width: 100%;
+	}
 }
 
 @media (max-width: 400px) {

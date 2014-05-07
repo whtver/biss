@@ -28,14 +28,7 @@
 	
 <section id="socmed_cont" class="container">
 	<div class="row">
-		<div class="col-xs-6">
-			<a href="http://twitter.com/<?php the_field('twitter', '75'); ?>" target="_blank">
-				<img class="left" src="<?php echo get_template_directory_uri() .'/assets/img/twcont.png' ?>" />
-				<span class="block grey">Twiiter</span>
-				<span class="block">@<?php the_field('twitter', '75'); ?></span>
-			</a>
-		</div>
-		<div class="col-xs-6">
+		<div class="col-xs-12">
 			<a href="http://facebook.com/<?php the_field('facebook', '75'); ?>" target="_blank">
 				<img class="left" src="<?php echo get_template_directory_uri() .'/assets/img/fbcont.png' ?>" />
 				<span class="block grey">Facebook</span>

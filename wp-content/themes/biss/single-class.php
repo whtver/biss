@@ -36,7 +36,8 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 padnol marbot20">
-			<img class="long_thumb" src="<?php the_field('banner_post'); ?>" />		
+			<img class="long_thumb" src="<?php the_field('banner_post'); ?>" />	
+	   
 		</div>
 		<div class="col-md-12">
 			<div id="horizontalTab" class="padbot25">
@@ -60,6 +61,14 @@
 			</div>
 		</div>
 	</div>
+	<section id="list_story" class="container marbot20">
+		<div class="row">
+			<div class="col-xs-12 text_center padbot20">
+				<?php the_field('curriculum_description'); ?>
+			</div>
+		</div>
+	</section>
+	
 	<div class="row">
 		<div class="col-md-4"></div>
 		<div class="col-md-4 ">

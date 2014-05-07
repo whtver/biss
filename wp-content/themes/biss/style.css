@@ -370,6 +370,8 @@ ul.nav li a {
 	
 	#tab_nav .col-xs-2 {
 		margin-bottom: 0;
+		/* hapus jika tab jadi 6 */
+		width: 20%;
 	}
 	
 	#tab_nav a:hover {
@@ -501,7 +503,7 @@ ul.nav li a {
 					padding: 14px 14px 14px !important;
 					background: #f56600;
 					text-align: center;
-					width: 23%;
+					width: 18.3%;
 					margin: 0 2% 0 0;
 					color: #fff;
 					text-transform: uppercase;
@@ -1410,7 +1412,7 @@ ul.nav li a {
 		display: block;
 		width: 100%;
 		margin: 0;
-	}
+		}
 	
 	#tab_nav .col-xs-2 p {
 		margin: 0;

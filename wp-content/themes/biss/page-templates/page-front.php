@@ -6,48 +6,21 @@
  */
 
 get_header(); ?>
-<section class="slidehome">
-	<div class="clearfix nav_cont_slide">
-		<a href="#" class="col-xs-6 cus_prev">&laquo;</a>
-		<a href="#" class="col-xs-6 cus_next">&raquo;</a>
-	</div>
-	<div id="slides">
-		<?php if( have_rows('slider_contents') ): ?>
- 
-			<?php while( have_rows('slider_contents') ): the_row(); 
 
-				// vars
-				$title = get_sub_field('front_page_slide_title');
-				$subtitle = get_sub_field('front_page_slide_subtitle');
-				$description = get_sub_field('front_page_slide_description');
-				$call_to_action_text = get_sub_field('front_page_slide_call_to_action_text');
-				$call_to_action_url = get_sub_field('front_page_slide_call_to_action_url');
-				$image_url = get_sub_field('front_page_slide_image'); 
-		 
-				?>
-		 		
-		 		<div>
-					<div class="slide_caption">
-						<h3><?php echo $title ?></h3>
-						<p class="desc"><?php echo $subtitle ?></p>
-						<p><?php echo $description ?></p>
-						<?php if ($call_to_action_text): ?>
-							<div class="row">
-								<div class="col-xs-8">
-									<a href="<?php echo $call_to_action_url ?>">
-										<button type="button" class="btn btn-success"><?php echo $call_to_action_text ?></button>
-									</a>
-								</div>
-							</div>
-						<?php endif; ?>
-					</div>
-					<img src="<?php echo $image_url ?>" />
+<section class="slidehome">
+	<section class="global_banner">
+		<img src="<?php echo get_template_directory_uri() .'/assets/img/banner/home.jpg' ?>" />
+		<div class="banner_desc">
+			<div class="container">
+				<div class="row">
+				<div class="col-xs-12">
+					<h3>Home</h3>
+					<p>Dengan kurikulum khusus yang mampu memberikan keseimbangan antara aspek seni dan aspek mental, Sekolah Bina Seni Suara memiliki tujuan utama menumbuhkan pengetahuan teori dan praktek bermusik melalui perhatian khusus dan istimewa.</p>
 				</div>
-		 
-			<?php endwhile; ?>
-		 
-		<?php endif; ?>
-	</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </section>
 
 <section id="res_feat" class="container">

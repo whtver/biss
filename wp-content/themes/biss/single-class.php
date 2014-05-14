@@ -19,7 +19,15 @@
 				<h4>Level Tersedia:</h4>
 				<ul class="level_cont clearfix">
 					<?php while( have_rows('class_level') ): the_row();  ?>
-					<li><?php echo get_sub_field('class_level_name'); ?></li>
+					<li>
+						<span><?php echo get_sub_field('class_level_name'); ?></span>
+						<ul>
+							<li><span>Sub Level</span></li>
+							<li><span>Sub Level</span></li>
+							<li><span>Sub Level</span></li>
+							<li><span>Sub Level</span></li>
+						</ul>						
+					</li>
 					<?php endwhile; ?>
 				</ul>
 			</div>

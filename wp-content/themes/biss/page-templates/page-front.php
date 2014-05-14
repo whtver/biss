@@ -2,10 +2,10 @@
 /**
  * Template Name: Front Page Template
  *
- *
+ * @package WordPress
  */
-
-get_header(); ?>
+?>
+<?php get_header(); ?>
 <section class="slidehome">
 	<div class="clearfix nav_cont_slide">
 		<a href="#" class="col-xs-6 cus_prev">&laquo;</a>

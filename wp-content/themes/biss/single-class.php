@@ -22,10 +22,9 @@
 					<li>
 						<span><?php echo get_sub_field('class_level_name'); ?></span>
 						<ul>
-							<li><span>Sub Level</span></li>
-							<li><span>Sub Level</span></li>
-							<li><span>Sub Level</span></li>
-							<li><span>Sub Level</span></li>
+							<?php while( have_rows('sub_class_level')): the_row(); ?>
+								<li><span><?php the_sub_field('sub_class_level_name'); ?></span></li>
+							<?php endwhile; ?>
 						</ul>						
 					</li>
 					<?php endwhile; ?>

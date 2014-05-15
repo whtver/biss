@@ -9,13 +9,13 @@ get_header(); ?>
 
 <section class="slidehome">
 	<section class="global_banner">
-		<img src="<?php echo get_template_directory_uri() .'/assets/img/banner/home.jpg' ?>" />
+		<img src="<?php the_field('front_page_image');?>" />
 		<div class="banner_desc">
 			<div class="container">
 				<div class="row">
 				<div class="col-xs-12">
-					<h3>Home</h3>
-					<p>Dengan kurikulum khusus yang mampu memberikan keseimbangan antara aspek seni dan aspek mental, Sekolah Bina Seni Suara memiliki tujuan utama menumbuhkan pengetahuan teori dan praktek bermusik melalui perhatian khusus dan istimewa.</p>
+					<h3><?php the_field('front_page_slide_title');?></h3>
+					<p><?php the_field('front_page_slide_description');?></p>
 				</div>
 				</div>
 			</div>

@@ -6,7 +6,7 @@
 <!--[if IE 9 ]>    <html class="no-js ie9" lang="en"> <![endif]--> 
 <!--[if (gte IE 10)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]--> 
 <head>
-  <title><?php wp_title( '|', true, 'right' ); ?></title>
+  <title><?php wp_title( '', true, 'right' ); ?></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
